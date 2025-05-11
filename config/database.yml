@@ -27,11 +27,12 @@ production: &prod
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
 
+# Action Cable connection (just reuse the prod settings)
 cable:
   <<: *prod
 
 queue:
-  <<: *prod
+  <<: *prod 
 
 cache:
   <<: *prod
