@@ -5,20 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
+* Ruby version * latest
 
 * Database initialization
 
+ db is already created, will add on more categories in the future.
+
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+ rails s 
+
+* Services adsdiagnostics.netlify.app
 
 * Deployment instructions
 
-* ...
+* run git commit
+if deploy errors, fix syntax in db.yml or env. also check render for any missing fields.
